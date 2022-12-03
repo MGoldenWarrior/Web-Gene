@@ -1,0 +1,46 @@
+
+    .cabesa {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /*formateo*/
+        width: 100%;
+       
+
+    }
+
+    .div-encabezado {
+      
+        border: 5px solid white;
+        /*flex-grow: 1;*/
+        /*formateo*/
+        
+
+    }
+    
+    /*#foto-encabezado {
+        
+    }*/
+
+    #nombre-encabezado {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        /*formateo*/
+        font-family: 'brush script mt';
+        font-size: xx-large;
+    }
+
+    #lista-encabezado {
+        margin-right: 10px;
+        width: 200px;
+        list-style-type: none;
+        font-family: 'brush script mt';
+        font-size: large;
+
+    }
+
+    .enlace-encabezado {
+        text-decoration: none;
+    }
